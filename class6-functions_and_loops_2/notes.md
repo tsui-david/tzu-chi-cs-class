@@ -108,4 +108,31 @@ while val != "stop":
     val = input('Please enter your number: ')
     if val.isnumeric():
         print(getEvenOdd(int(val)))
-        
+```
+
+Notice how if I try to `int(val)` when val is not an int, the program will freak out. However `val.isnumeric()` will let me know if it is a number before I force cast the val variable.
+
+
+### Problem of the Week!
+
+Create a calculator app!
+1. The app will accept user inputs first with the options of: "add", "multiply", "subtract", "divide".
+2. Then the app will accept two values, one after another.
+3. After the user has entered the two values, you should return the correct answer.
+4. Make use of functions for each operation - you should have 4 functions in total.
+5. Keep asking the user until the user types in "stop".
+
+Hint:
+```
+Operations in python are: +, -, *, /
+
+ex:
+1 + 1
+1 - 1
+1 * 1 
+1 / 1
+```
+
+Challenge 1: Do NOT use the `*` operator for multiply
+
+Challenge 2: Create an additional option: `square` which only accepts **ONE** input value instead of two and prints the squared value.
