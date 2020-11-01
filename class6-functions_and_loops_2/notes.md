@@ -136,3 +136,14 @@ ex:
 Challenge 1: Do NOT use the `*` operator for multiply
 
 Challenge 2: Create an additional option: `square` which only accepts **ONE** input value instead of two and prints the squared value.
+
+Example Output:
+```
+Operations in python are: +, -, *, /: +
+what is your first number:1
+what is your second number:2
+3
+
+Operations in python are: +, -, *, /:*
+what is your first
+```
