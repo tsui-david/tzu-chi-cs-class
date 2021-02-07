@@ -2,6 +2,10 @@ import unittest
 from drills import *
 
 class CheckDrills(unittest.TestCase):
+    def test_example(self):
+        ans = example()
+        self.assertEqual(ans, 'wow!')
+  
     def test_ex1(self):
         ans = ex1([1,2,3,4,5])
         self.assertEqual(ans, 5)
@@ -47,7 +51,23 @@ class CheckDrills(unittest.TestCase):
 
     def test_ex11(self):
         test = [1,2,3]
+        ans = ex11(test)
         self.assertEqual(ans, [1,2,3,1,2,3,1,2,3])  
+
+    def test_ex12(self):
+        self.assertEqual(ex12(5), [[],[],[],[],[]])
+
+    def test_ex13(self):
+        a = [[0],[1]]
+        self.assertEqual(ex13(a), 0)
+    
+    def test_ex14(self):
+        a = [[0],[1]]
+        self.assertEqual(ex14(a), 1)
+    
+    def test_ex15(self):
+        a = [[0],[1]]
+        self.assertEqual(ex15(a, 0, 0), 0)
 
 if __name__.__contains__("__main__"):
     print(__doc__)
