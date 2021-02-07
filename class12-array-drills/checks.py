@@ -1,5 +1,6 @@
 import unittest
 from drills import *
+# from answers import *
 
 class CheckDrills(unittest.TestCase):
     def test_example(self):
@@ -24,7 +25,7 @@ class CheckDrills(unittest.TestCase):
     
     def test_ex5(self):
         ans = ex5()
-        compare = ['a'*100]
+        compare = ['a'] * 100
         self.assertEqual(ans, compare)
     
     def test_ex6(self):
@@ -36,12 +37,12 @@ class CheckDrills(unittest.TestCase):
         self.assertEqual(ans, [1,2])
 
     def test_ex8(self):
-        ans = ex7([1,2,3])
+        ans = ex8([1,2,3])
         self.assertEqual(ans, [1])
 
     def test_ex9(self):
-        ans = ex7([1,2,3],3)
-        self.assertEqual(ans, [1])
+        ans = ex9([1,2,3],3)
+        self.assertEqual(ans, [])
 
     def test_ex10(self):
         test = [1,2,3]
