@@ -1,23 +1,21 @@
 """
 - The following are a list of exercises to get you familiar with loops, arrays, and variables.
-- You might or might not need to modify the arguments to the function!!
-- Please adjust base on the comment of the exercise.
-- After you complete the exercsise, uncomment the assertion to check your answer
+- After you complete the exercsise, run the checks.py file to see if you passed the basic checks.
 """
 
-def ex1():
+def ex1(a):
     """
     given an array return the 5th element in the array
     """
     return
 
-def ex2():
+def ex2(a):
     """
     given an array return the first element in the array
     """
     return
 
-def ex3():
+def ex3(a):
     """
     given an array return the last element in the array
     """
@@ -35,20 +33,20 @@ def ex5():
     """
     return
 
-def ex6():
+def ex6(n):
     """
     given an input n, create an array with n character "a" inside
     """
     return
 
-def ex7():
+def ex7(a):
     """
     given an array, remove the last element
     if array is empty return empty
     """
     return
 
-def ex8():
+def ex8(a):
     """
     given an array, remove all BUT the first element
     if array is empty return empty
@@ -56,20 +54,20 @@ def ex8():
     """
     return
 
-def ex9():
+def ex9(a,n):
     """
     given an array, and n, remove n elements from the array
     if array is empty return empty
     """
     return
 
-def ex10():
+def ex10(a):
     """
     given an array, return a new array that is a copy of the array
     """
     return
 
-def ex11():
+def ex11(a):
     """
     given an array, return an array that copies the input array 3 times.
     ex: [1] -> [1,1,1]
