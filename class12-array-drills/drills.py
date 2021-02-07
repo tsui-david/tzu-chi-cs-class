@@ -3,11 +3,14 @@
 - After you complete the exercsise, run the checks.py file to see if you passed the basic checks.
 """
 
+def example():
+  return 'wow!'
+
 def ex1(a):
     """
     given an array return the 5th element in the array
     """
-    return
+    return 
 
 def ex2(a):
     """
@@ -72,5 +75,29 @@ def ex11(a):
     given an array, return an array that copies the input array 3 times.
     ex: [1] -> [1,1,1]
         [2,2] -> [2,2,2,2,2,2]
+    """
+    return
+
+def ex12():
+    """
+    create an array of 5 arrays
+    """
+    return
+
+def ex13(a):
+    """
+    given a 2d array, return the first element of the first array
+    """
+    return
+
+def ex14(a):
+    """
+    given a 2d array, return the last element of the last array
+    """
+    return
+
+def ex15(a, i, j):
+    """
+    given a 2d array return the jth element of the ith array
     """
     return
