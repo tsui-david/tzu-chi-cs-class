@@ -5,19 +5,16 @@ def ex1(twoDArray):
     """
     given a 2-d array, return the first row of the 2-d array
     """
-    return 
 
-def ex2(twoDArray):
+def ex2(twoDArray, n):
     """
     given a 2-d array, return the n-th row of the 2-d array
     """
-    return
 
 def ex3(a, i, j):
     """
     given a 2d array return the jth element of the ith array
     """
-    return
 
 def ex4(n):
     """
@@ -27,7 +24,6 @@ def ex4(n):
     ['*', '*', '*'] 1
     ['x', 'x', 'x'] 2
     """
-    return
 
 def ex5(n):
     """
@@ -37,7 +33,6 @@ def ex5(n):
     ['x', '*', 'x'] 1
     ['x', '*', 'x'] 2
     """
-    return
 
 def ex6(twoDArray):
     """
@@ -46,7 +41,6 @@ def ex6(twoDArray):
     [[1, 2, 3], [4, 5, 6], [7, 8, 9]] becomes [1, 2, 3, 4, 5, 6, 7, 8, 9]
     
     """
-    return
 
 def ex7(a):
     """
@@ -59,4 +53,3 @@ def ex7(a):
     [[1, 2, 3],
     [4, 5, 6]]
     """
-    return

@@ -1,5 +1,5 @@
 import unittest
-from exercises import *
+from drills import *
 
 class CheckDrills(unittest.TestCase):
     def test_example(self):

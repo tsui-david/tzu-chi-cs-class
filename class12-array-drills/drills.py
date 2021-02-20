@@ -11,7 +11,7 @@ def ex1(a):
     """
     given an array return the 5th element in the array
     """
-    return 
+    return
 
 def ex2(a):
     """
